@@ -3,7 +3,9 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"]
+    },
   },
   plugins: [],
 }
