@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply px-5 py-3 inline-block rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm sm:text-base focus:outline-none focus:ring focus:ring-offset-2 focus:ring-opacity-50
+}
+
+.btn--primary {
+  @apply bg-indigo-500 text-white hover:bg-indigo-400 focus:ring-indigo-500 active:bg-indigo-600
+}
+
+.btn--secondary {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-200 focus:ring-gray-400 active:bg-gray-400
+}
+
+.logo {
+  @apply text-2xl font-bold uppercase sm:text-3xl
+}
+
+.image-primary--small {
+  @apply rounded-lg shadow-xl mt-6 sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden
+}
+
+.image-primary--large {
+  @apply absolute inset-0 w-full h-full object-cover object-center
+}
+
+.title {
+  @apply mt-6 text-2xl font-bold text-gray-900 sm:text-4xl lg:text-3xl
+}
+
+.description {
+  @apply mt-2 text-gray-600 sm:mt-4
+}
