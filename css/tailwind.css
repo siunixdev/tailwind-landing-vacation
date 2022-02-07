@@ -11,7 +11,7 @@
 }
 
 .btn--secondary {
-  @apply bg-gray-200 text-gray-800 hover:bg-gray-200 focus:ring-gray-400 active:bg-gray-400
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-400 active:bg-gray-500
 }
 
 .logo {
@@ -32,4 +32,32 @@
 
 .description {
   @apply mt-2 text-gray-600 sm:mt-4
+}
+
+.content {
+  @apply max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 mt-8
+}
+
+.content__list{
+  @apply mt-6 grid gap-5 lg:grid-cols-2 xl:grid-cols-3 mb-14
+}
+
+.list__card {
+  @apply flex items-center rounded-lg bg-white shadow-lg overflow-hidden
+}
+
+.card__image {
+  @apply h-32 w-32 flex-shrink-0
+}
+
+.card__content {
+  @apply px-6 py-4
+}
+
+.card__title {
+  @apply text-lg font-semibold text-gray-800
+}
+
+.card__link {
+  @apply text-indigo-500 text-sm font-semibold hover:text-indigo-700
 }
